@@ -17,6 +17,7 @@
 13. [Gray Code](./intro/gray_code.cpp)
 14. [Tower Of Hanoi](./intro/tower_of_hanoi.cpp)
 15. [Creating Strings](./intro/creating_strings.cpp)
+16. [Apple Division](./intro/apple_division.cpp)
 
 ## Sorting and Searching
 
@@ -25,3 +26,7 @@
 3. [Ferris Wheel](./sorting_searching/ferris_wheel.cpp)
 4. [Concert Tickets](./sorting_searching/concert_tickets.cpp)
 5. [Restaurant Customers](./sorting_searching/restaurent_customers.cpp)
+6. [Movie Festival](./sorting_searching/movie_festival.cpp)
+7. [Sum Of Two Values](./sorting_searching/sum_of_two_values.cpp)
+8. [Maximum Sub Array Sum](./sorting_searching/maximum_subarray_sum.cpp)
+9. [Stick Lengths](./sorting_searching/stick_lengths.cpp)
