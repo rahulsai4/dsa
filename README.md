@@ -1,4 +1,4 @@
-# CSES PROBLEMSET
+# CSES PROBLEMSET (26 / 300)
 
 ## Introductory problems
 
