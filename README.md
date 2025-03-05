@@ -3,7 +3,7 @@
 ## Introductory problems
 
 1. [Weird Algorithm](./intro/weird_algorithm.cpp)
-2. [Missing Number](./intro/repetitions.cpp)
+2. [Missing Number](./intro/missing_number.cpp)
 3. [Repetitions](./intro/repetitions.cpp)
 4. [Increasing Array](./intro/increasing_array.cpp)
 5. [Permutations](./intro/number_spiral.cpp)
@@ -18,6 +18,9 @@
 14. [Tower Of Hanoi](./intro/tower_of_hanoi.cpp)
 15. [Creating Strings](./intro/creating_strings.cpp)
 16. [Apple Division](./intro/apple_division.cpp)
+17. [Chessboard And Queens]
+18. [Digit Queries]
+19. [Grid Paths]
 
 ## Sorting and Searching
 
@@ -30,3 +33,7 @@
 7. [Sum Of Two Values](./sorting_searching/sum_of_two_values.cpp)
 8. [Maximum Sub Array Sum](./sorting_searching/maximum_subarray_sum.cpp)
 9. [Stick Lengths](./sorting_searching/stick_lengths.cpp)
+10. [Missing Coin Sum](./sorting_searching/missing_coin_sum.cpp)
+11. [Collecting Numbers 1](./sorting_searching/collecting_numbers.cpp)
+12. [Collecting Numbers 2]
+13. [Playlist](./sorting_searching/playlist.cpp)
