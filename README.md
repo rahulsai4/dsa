@@ -1,4 +1,4 @@
-# CSES PROBLEMSET (26 / 300)
+# CSES PROBLEMSET (28 / 300)
 
 ## Introductory problems
 
@@ -37,3 +37,11 @@
 11. [Collecting Numbers 1](./sorting_searching/collecting_numbers.cpp)
 12. [Collecting Numbers 2]
 13. [Playlist](./sorting_searching/playlist.cpp)
+14. [Towers](./sorting_searching/towers.cpp)
+15. [Traffic Lights](./sorting_searching/traffic_lights.cpp)
+16. [Josephus Problem 1]
+
+## Dynamic Programming
+
+1. [Dice Combinations](./dp/dice_combinations.cpp)
+2. [Minimizing Coins](./dp/minimizing_coins.cpp)
