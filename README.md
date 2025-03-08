@@ -1,4 +1,4 @@
-# CSES PROBLEMSET (28 / 300)
+# CSES PROBLEMSET (31 / 300)
 
 ## Introductory problems
 
@@ -45,3 +45,4 @@
 
 1. [Dice Combinations](./dp/dice_combinations.cpp)
 2. [Minimizing Coins](./dp/minimizing_coins.cpp)
+3. [Coin Combinations 1](./dp/coin_combinations_1.cpp)
