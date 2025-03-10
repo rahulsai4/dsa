@@ -46,3 +46,6 @@
 1. [Dice Combinations](./dp/dice_combinations.cpp)
 2. [Minimizing Coins](./dp/minimizing_coins.cpp)
 3. [Coin Combinations 1](./dp/coin_combinations_1.cpp)
+4. [Coin Combinations 2](./dp/coin_combinations_2.cpp)
+5. [Removing Digits](./dp/removing_digits.cpp)
+6. [Grid Paths](./dp/grid_paths.cpp)
