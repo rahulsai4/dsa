@@ -1,4 +1,4 @@
-# CSES PROBLEMSET (34 / 300)
+# CSES PROBLEMSET (35 / 300)
 
 ## Introductory problems
 
@@ -49,3 +49,4 @@
 4. [Coin Combinations 2](./dp/coin_combinations_2.cpp)
 5. [Removing Digits](./dp/removing_digits.cpp)
 6. [Grid Paths](./dp/grid_paths.cpp)
+7. [Book Shop](./dp/book_shop.cpp)
