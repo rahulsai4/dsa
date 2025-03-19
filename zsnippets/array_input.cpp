@@ -2,6 +2,7 @@
 using namespace std;
 
 #define lli long long
+#define endl "\n"
 int MOD = (int) 1e9 + 7;
 
 int main(){

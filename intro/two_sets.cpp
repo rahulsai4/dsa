@@ -1,55 +1,81 @@
-#include <bits/stdc++.h>
+#include<bits/stdc++.h>
+ 
 using namespace std;
-
-bool helper(int n, long target, vector<int> &temp, vector<int> &res);
-
-// brute force
+ 
+int MOD = (int) 1e9 + 7;
+ 
+vector<vector<int>> solve(long long n);
+ 
 int main(){
     int n;
     cin >> n;
-    long sum = (n * (n + 1)) / 2;
-
-    vector<int> list1;
-    vector<int> temp;
-    if(sum % 2 != 0){
+ 
+ 
+    vector<vector<int>> res = solve(n);
+    if(res.size() == 0){
         cout << "NO" << endl;
+        return 0;
+    }
+ 
+    sort(res[0].begin(), res[0].end());
+    sort(res[1].begin(), res[1].end());
+ 
+    cout << "YES" << endl;
+    cout << res[0].size() << endl;
+    for(int i : res[0]) cout << i << " ";
+    cout << endl;
+    cout << res[1].size() << endl;
+    for(int i : res[1]) cout << i << " ";
+    cout << endl;
+    
+}
+ 
+vector<vector<int>> solve(long long n){
+    vector<vector<int>> res;
+ 
+    long long o = n % 2 == 0 ? n : n + 1;
+    o = o / 2;
+    if(o % 2 != 0) return res;
+    if(n == 3) return {{1, 2}, {3}};
+ 
+    vector<int> left;
+    vector<int> right;
+ 
+    if(n % 2 == 0){
+        for(int i = 1; i <= n / 2; i++){
+            if(i % 2 == 0){
+                left.push_back(i);
+                left.push_back(n - i + 1);
+            }
+            else{
+                right.push_back(i);
+                right.push_back(n - i + 1);
+            }
+        }
+ 
+        
+        res.push_back(left);
+        res.push_back(right);
+        return res;
     }
     else{
-        helper(n, sum / 2, temp, list1);
-        reverse(list1.begin(), list1.end());
-        
-        vector<int> list2;
-        int i = 0;
-        for(int j = 1; j <= n; j++){
-            if(list1[i] == j) i++;
-            else list2.push_back(j);
+        int mid = n / 2 + 1;
+        vector<vector<int>> subRes = solve(mid - 1);
+        if(subRes.size() == 0) return res;
+ 
+        int i = mid;
+        int j = n;
+        while(i < j){
+            if(i % 2 == 0){
+                subRes[0].push_back(i++);
+                subRes[0].push_back(j--);
+            }
+            else{
+                subRes[1].push_back(i++);
+                subRes[1].push_back(j--);
+            }
+ 
         }
-
-        reverse(list2.begin(), list2.end());
-
-        cout << "YES" << endl;
-        cout << list1.size() << endl;
-        for(int num : list1) cout << num << " ";
-        cout << endl << list2.size() << endl;
-        for(int num : list2) cout << num << " ";
-        cout << endl;
+        return subRes;
     }
-
 }
-
-bool helper(int n, long target, vector<int> &temp, vector<int> &res){
-    if(target == 0){
-        res = temp;
-        return true;
-    }
-    if(n == 0) return false;
-
-    
-    temp.push_back(n);
-    bool inc = helper(n - 1, target - n, temp, res);
-    temp.pop_back();
-    if(inc) return true;
-    bool exc = helper(n - 1, target, temp, res);
-    return exc;
-}
-

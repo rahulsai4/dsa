@@ -1,4 +1,4 @@
-# CSES PROBLEMSET (35 / 300)
+# CSES PROBLEMSET (37 / 300)
 
 ## Introductory problems
 
@@ -39,7 +39,8 @@
 13. [Playlist](./sorting_searching/playlist.cpp)
 14. [Towers](./sorting_searching/towers.cpp)
 15. [Traffic Lights](./sorting_searching/traffic_lights.cpp)
-16. [Josephus Problem 1]
+16. [Josephus Problem 1](./sorting_searching/josephus_problem_1.cpp)
+17. [Josephus Problem 2](./sorting_searching/josephus_problem_2.cpp)
 
 ## Dynamic Programming
 
@@ -50,3 +51,5 @@
 5. [Removing Digits](./dp/removing_digits.cpp)
 6. [Grid Paths](./dp/grid_paths.cpp)
 7. [Book Shop](./dp/book_shop.cpp)
+8. [Array Description]
+9. [Counting Towers]
