@@ -1,6 +1,6 @@
-# CSES PROBLEMSET (37 / 300)
+## CSES PROBLEMSET (37 / 300)
 
-## Introductory problems
+### Introductory problems
 
 1. [Weird Algorithm](./intro/weird_algorithm.cpp)
 2. [Missing Number](./intro/missing_number.cpp)
@@ -22,7 +22,7 @@
 18. [Digit Queries]
 19. [Grid Paths]
 
-## Sorting and Searching
+### Sorting and Searching
 
 1. [Distinct Numbers](./sorting_searching/distinct_numbers.cpp)
 2. [Apartments](./sorting_searching/apartments.cpp)
@@ -42,7 +42,7 @@
 16. [Josephus Problem 1](./sorting_searching/josephus_problem_1.cpp)
 17. [Josephus Problem 2](./sorting_searching/josephus_problem_2.cpp)
 
-## Dynamic Programming
+### Dynamic Programming
 
 1. [Dice Combinations](./dp/dice_combinations.cpp)
 2. [Minimizing Coins](./dp/minimizing_coins.cpp)
