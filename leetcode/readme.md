@@ -1,3 +1,6 @@
-### iteration
-- [38. Count And Say](./iteration/count_and_say.cpp) - simple iteration
+### Problems
 
+-   [38. Count And Say](./problems/lc38.cpp)
+    ( iteration )
+-   [2563. Count the Number of fair pairs](./problems/lc2563.cpp)
+    ( bs | precomputation)
