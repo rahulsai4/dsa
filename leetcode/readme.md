@@ -30,3 +30,8 @@
         <summary> hint </summary>
         observe that just when a subarray reaches the distinct target that means there are no other distinct elements left to increase the distinct elements
     </details>
+-   [2302. Count Subarrays With Score Less Than K](./problems/lc2302.cpp)
+    <details>
+        <summary> topics </summary>
+        ( sliding window | count )
+    </details>
