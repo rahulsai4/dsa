@@ -10,6 +10,11 @@
         <summary> topics </summary>
         ( iteration | frequency )
     </details>
+-   [838. Push Dominoes](./problems/lc838.cpp)
+    <details>
+        <summary> topics </summary>
+        ( prefix )
+    </details>
 -   [2145. Count the Hidden Sequences](./problems/lc2145.cpp)
     <details>
         <summary> topics </summary>
@@ -25,10 +30,10 @@
     <details>
         <summary> topics </summary>
         ( sliding window )
-    </details>
     <details>
         <summary> hint </summary>
         observe that just when a subarray reaches the distinct target that means there are no other distinct elements left to increase the distinct elements
+    </details>
     </details>
 -   [2302. Count Subarrays With Score Less Than K](./problems/lc2302.cpp)
     <details>
