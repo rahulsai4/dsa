@@ -15,6 +15,11 @@
         <summary> topics </summary>
         ( prefix )
     </details>
+-   [1007. Minimum Domino Rotations For Equal Row](./problems//lc1007.cpp)
+    <details>
+        <summary> topics </summary>
+        ( math )
+    </details>
 -   [2145. Count the Hidden Sequences](./problems/lc2145.cpp)
     <details>
         <summary> topics </summary>
