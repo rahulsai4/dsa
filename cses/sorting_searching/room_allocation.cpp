@@ -50,7 +50,3 @@ int main(){
     }
     cout << endl;
 }
-
-bool canAllocate(vector<int> customers, int rooms){
-    
-}
