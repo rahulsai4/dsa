@@ -1,0 +1,1 @@
+{"name":"Local: mininum_lcm","url":"/home/rahul/repos/dsa/codeforces/cp31/1000/mininum_lcm.cpp","tests":[{"id":1750658582715,"input":"4\n2\n9\n5\n10","output":"1 1\n3 6\n1 4\n5 5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/rahul/repos/dsa/codeforces/cp31/1000/mininum_lcm.cpp","group":"local","local":true}
