@@ -1,0 +1,1 @@
+{"name":"Local: a","url":"/home/rahul/repos/dsa/codeforces/contest/1034/a.cpp","tests":[{"id":1751384598815,"input":"5\n2\n4\n5\n7\n100","output":"Alice\nBob\nAlice\nAlice\nBob"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/rahul/repos/dsa/codeforces/contest/1034/a.cpp","group":"local","local":true}

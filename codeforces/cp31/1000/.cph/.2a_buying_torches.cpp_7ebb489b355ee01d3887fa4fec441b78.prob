@@ -1,0 +1,1 @@
+{"name":"Local: 2a_buying_torches","url":"/home/rahul/repos/dsa/codeforces/cp31/1000/2a_buying_torches.cpp","tests":[{"id":1751288130091,"input":"3\n2 1 5\n42 13 24\n12 11 12","output":"14\n33\n25"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/rahul/repos/dsa/codeforces/cp31/1000/2a_buying_torches.cpp","group":"local","local":true}
