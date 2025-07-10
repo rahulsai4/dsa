@@ -1,0 +1,1 @@
+{"name":"Local: sliding_window_xor","url":"/home/rahul/repos/dsa/cses/sliding_window/sliding_window_xor.cpp","tests":[{"id":1752168037313,"input":"8 5\n3 7 1 11","output":"0"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/rahul/repos/dsa/cses/sliding_window/sliding_window_xor.cpp","group":"local","local":true}
