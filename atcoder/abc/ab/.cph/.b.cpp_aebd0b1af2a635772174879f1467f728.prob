@@ -1,0 +1,1 @@
+{"name":"Local: b","url":"/home/rahul/repos/dsa/atcoder/abc/b.cpp","tests":[{"id":1762876302912,"input":"3 2\n...\n###\n#.#","output":"3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/rahul/repos/dsa/atcoder/abc/b.cpp","group":"local","local":true}

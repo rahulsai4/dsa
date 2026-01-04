@@ -1,0 +1,1 @@
+{"name":"Local: d","url":"/home/rahul/repos/dsa/codeforces/contest/1047/d.cpp","tests":[{"id":1757257662310,"input":"4\n4\n1 2 3 4\n6\n1 2 2 3 3 3\n6\n6 6 6 6 6 6\n10\n1 3 2 3 3 2 4 4 4 4","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/rahul/repos/dsa/codeforces/contest/1047/d.cpp","group":"local","local":true}
